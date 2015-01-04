@@ -1,3 +1,8 @@
+Traveling agent aims to help users search feasible tickets for their trip in
+different markets and assemble these tickets into package automatically.
+
+Original source:
+
 Pre-release SICS TAC Classic Java Server 1.0 beta 11 - 2004-08-12
 
 Note that this is a Java port of the TAC Classic server. Please report
@@ -89,3 +94,9 @@ tac-support@sics.se
 
 Best,
 The TAC Team, SICS
+
+
+Our work:
+Formatting the information. Design and implement Flight, Hotel and Entertainment ticket bidding strategy in order to get feasible package as well as minimum cost. Our strategy has been written in DummyAgent.java.
+
+
