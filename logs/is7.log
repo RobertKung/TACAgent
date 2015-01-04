@@ -1,0 +1,32 @@
+03/12 12:30:48 FINE is.InfoServer|Using game path: /home/kung/Desktop/agent/coursework/public_html/history
+03/12 12:30:48 SEVERE is.InfoServer|You should register an admin user with the name 'admin'!
+************************************************************
+* You should register an admin user with the name 'admin'!
+************************************************************
+
+
+03/12 12:30:48 INFO is.GameArchiver|adding game 1 to be generated
+03/12 12:30:48 INFO is.GameArchiver|adding game 2 to be generated
+03/12 12:30:48 INFO is.AppletServer|viewer server started at *:4041
+03/12 04:31:06 FINE is.InfoServer|new coming game 4 (gameid=-1,tacClassic)
+03/12 04:31:18 FINE is.GameArchiver|Reading game 1 from applet1.log copying to /home/kung/Desktop/agent/coursework/public_html/history/1/applet.log.gz
+03/12 04:31:18 SEVERE is.GameArchiver|could not generate result for game 1
+java.io.IOException: could not parse line 1812
+	at se.sics.tac.is.GameArchiver.readGame(GameArchiver.java:371)
+	at se.sics.tac.is.GameArchiver.run(GameArchiver.java:217)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at se.sics.tac.log.ISTokenizer.nextFloat(ISTokenizer.java:207)
+	at se.sics.tac.log.TACGameInfo.gameData(TACGameInfo.java:208)
+	at se.sics.tac.is.GameArchiver.readGame(GameArchiver.java:364)
+	... 1 more
+03/12 04:31:18 FINE is.GameArchiver|Reading game 2 from applet2.log copying to /home/kung/Desktop/agent/coursework/public_html/history/2/applet.log.gz
+03/12 04:31:18 SEVERE is.GameArchiver|could not generate result for game 2
+java.io.IOException: could not parse line 1131
+	at se.sics.tac.is.GameArchiver.readGame(GameArchiver.java:371)
+	at se.sics.tac.is.GameArchiver.run(GameArchiver.java:217)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at se.sics.tac.log.ISTokenizer.<init>(ISTokenizer.java:100)
+	at se.sics.tac.is.GameArchiver.readGame(GameArchiver.java:364)
+	... 1 more

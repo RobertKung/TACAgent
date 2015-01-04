@@ -1,0 +1,51 @@
+03/12 12:29:19 FINE is.InfoServer|Using game path: /home/kung/Desktop/agent/coursework/public_html/history
+03/12 12:29:19 SEVERE is.InfoServer|You should register an admin user with the name 'admin'!
+************************************************************
+* You should register an admin user with the name 'admin'!
+************************************************************
+
+
+03/12 12:29:19 INFO is.GameArchiver|adding game 1 to be generated
+03/12 12:29:19 INFO is.GameArchiver|adding game 2 to be generated
+03/12 12:29:20 INFO is.AppletServer|viewer server started at *:4041
+03/12 12:29:20 SEVERE is.InfoServer|could not connect to TAC server:
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:327)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:193)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:180)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:385)
+	at java.net.Socket.connect(Socket.java:546)
+	at java.net.Socket.connect(Socket.java:495)
+	at java.net.Socket.<init>(Socket.java:392)
+	at java.net.Socket.<init>(Socket.java:206)
+	at se.sics.tac.line.LineConnection.start(LineConnection.java:168)
+	at se.sics.tac.is.InfoServer.connect(InfoServer.java:793)
+	at se.sics.tac.is.InfoServer.<init>(InfoServer.java:354)
+	at se.sics.tac.is.InfoServer.main(InfoServer.java:1284)
+03/12 12:29:49 FINE is.GameArchiver|Reading game 1 from applet1.log copying to /home/kung/Desktop/agent/coursework/public_html/history/1/applet.log.gz
+03/12 12:29:50 SEVERE is.GameArchiver|could not generate result for game 1
+java.io.IOException: could not parse line 1812
+	at se.sics.tac.is.GameArchiver.readGame(GameArchiver.java:371)
+	at se.sics.tac.is.GameArchiver.run(GameArchiver.java:217)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at se.sics.tac.log.ISTokenizer.nextFloat(ISTokenizer.java:207)
+	at se.sics.tac.log.TACGameInfo.gameData(TACGameInfo.java:208)
+	at se.sics.tac.is.GameArchiver.readGame(GameArchiver.java:364)
+	... 1 more
+03/12 12:29:50 FINE is.GameArchiver|Reading game 2 from applet2.log copying to /home/kung/Desktop/agent/coursework/public_html/history/2/applet.log.gz
+03/12 12:29:50 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+03/12 12:29:50 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+03/12 04:29:50 SEVERE is.GameArchiver|could not generate result for game 2
+java.io.IOException: could not parse line 1131
+	at se.sics.tac.is.GameArchiver.readGame(GameArchiver.java:371)
+	at se.sics.tac.is.GameArchiver.run(GameArchiver.java:217)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at se.sics.tac.log.ISTokenizer.<init>(ISTokenizer.java:100)
+	at se.sics.tac.is.GameArchiver.readGame(GameArchiver.java:364)
+	... 1 more
+03/12 04:29:59 FINE is.InfoServer|new coming game 3 (gameid=-1,tacClassic)
+03/12 04:30:38 WARNING line.LineConnection|tac-2: 127.0.0.1 closed connection
+03/12 04:30:38 FINEST line.LineConnection|tac-2: connection closed from 127.0.0.1

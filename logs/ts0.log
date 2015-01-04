@@ -1,0 +1,218 @@
+18/12 06:23:07 INFO server.LineServer|info server started at *:4039
+18/12 06:23:07 INFO server.TACServer|waiting for Info Server to start...
+18/12 06:23:53 FINE server.LineServer|new info connection: info-1
+18/12 06:23:53 INFO server.InfoServer|new Java Info server connection
+18/12 06:23:53 INFO server.TACServer|tac server started at *:6500
+18/12 06:24:08 FINE server.TACServer|new agent: tac-1
+18/12 06:24:08 FINEST server.TACConnection|XML_IN(tac-1): <auth><userName>arh</userName><userPW>binbin222</userPW></auth>
+18/12 06:24:08 FINEST server.TACConnection|XML_OUT(arh@tac-1): <auth><userID>0</userID><commandStatus>0</commandStatus></auth>
+18/12 06:24:08 FINEST server.TACConnection|XML_IN(arh@tac-1): <serverTime></serverTime>
+18/12 06:24:08 FINEST server.TACConnection|XML_OUT(arh@tac-1): <serverTime><time>1418883848</time><commandStatus>0</commandStatus></serverTime>
+18/12 06:24:08 FINEST server.TACConnection|XML_IN(arh@tac-1): <nextGame></nextGame>
+18/12 06:24:08 FINEST server.TACConnection|XML_OUT(arh@tac-1): <nextGame><gameID>16</gameID><startTime>1418883960</startTime><gameType>0</gameType><commandStatus>0</commandStatus></nextGame>
+18/12 06:24:08 FINEST server.TACConnection|XML_IN(arh@tac-1): <quit></quit>
+18/12 06:24:08 FINEST inet.InetConnection|arh@tac-1: connection closed from 127.0.0.1
+18/12 06:24:08 FINEST server.TACConnection|XML_OUT(arh@tac-1): <quit><commandStatus>0</commandStatus></quit>
+18/12 06:26:00 FINE server.InfoManager|Entering log for game 16
+************************************************************
+* Entering log for game 16
+************************************************************
+
+
+18/12 06:35:00 FINEST server.TACConnection|XML_IN(arh@tac-2): <getQuote><auctionID>241</auctionID><bidID>9493</bidID></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_OUT(arh@tac-2): <getQuote><lastAskPrice>220.0000</lastAskPrice><lastBidPrice>89.3208</lastBidPrice><lastQuoteTime>1418884500</lastQuoteTime><nextQuoteTime>1418884530</nextQuoteTime><lastClearPrice>105.5719</lastClearPrice><lastClearTime>1418884450</lastClearTime><finalClearTime>1418884500</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_IN(arh@tac-2): <getQuote><auctionID>242</auctionID><bidID>9494</bidID></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_OUT(arh@tac-2): <getQuote><lastAskPrice>220.0000</lastAskPrice><lastBidPrice>88.1607</lastBidPrice><lastQuoteTime>1418884500</lastQuoteTime><nextQuoteTime>1418884530</nextQuoteTime><lastClearPrice>68.2495</lastClearPrice><lastClearTime>1418884390</lastClearTime><finalClearTime>1418884500</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_IN(arh@tac-2): <getQuote><auctionID>243</auctionID><bidID>9003</bidID></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_OUT(arh@tac-2): <getQuote><lastAskPrice>61.5524</lastAskPrice><lastBidPrice>8.2072</lastBidPrice><lastQuoteTime>1418884500</lastQuoteTime><nextQuoteTime>1418884530</nextQuoteTime><lastClearPrice>55.8238</lastClearPrice><lastClearTime>1418884450</lastClearTime><finalClearTime>1418884500</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_IN(arh@tac-2): <getQuote><auctionID>244</auctionID><bidID>9005</bidID></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_OUT(arh@tac-2): <getQuote><lastAskPrice>54.8439</lastAskPrice><lastBidPrice>8.1466</lastBidPrice><lastQuoteTime>1418884500</lastQuoteTime><nextQuoteTime>1418884530</nextQuoteTime><lastClearPrice>71.9748</lastClearPrice><lastClearTime>1418884390</lastClearTime><finalClearTime>1418884500</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_IN(arh@tac-2): <getQuote><auctionID>245</auctionID><bidID>9741</bidID></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_OUT(arh@tac-2): <getQuote><lastAskPrice>6.0801</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1418884500</lastQuoteTime><nextQuoteTime>1418884530</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1418884500</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_IN(arh@tac-2): <getQuote><auctionID>246</auctionID><bidID>9498</bidID></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_OUT(arh@tac-2): <getQuote><lastAskPrice>220.0000</lastAskPrice><lastBidPrice>86.9097</lastBidPrice><lastQuoteTime>1418884500</lastQuoteTime><nextQuoteTime>1418884530</nextQuoteTime><lastClearPrice>95.0749</lastClearPrice><lastClearTime>1418884450</lastClearTime><finalClearTime>1418884500</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_IN(arh@tac-2): <getQuote><auctionID>247</auctionID><bidID>9585</bidID></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_OUT(arh@tac-2): <getQuote><lastAskPrice>62.9426</lastAskPrice><lastBidPrice>53.3956</lastBidPrice><lastQuoteTime>1418884500</lastQuoteTime><nextQuoteTime>1418884530</nextQuoteTime><lastClearPrice>71.3776</lastClearPrice><lastClearTime>1418884390</lastClearTime><finalClearTime>1418884500</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_IN(arh@tac-2): <getQuote><auctionID>248</auctionID><bidID>9487</bidID></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_OUT(arh@tac-2): <getQuote><lastAskPrice>55.5764</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1418884500</lastQuoteTime><nextQuoteTime>1418884530</nextQuoteTime><lastClearPrice>65.8297</lastClearPrice><lastClearTime>1418884330</lastClearTime><finalClearTime>1418884500</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_IN(arh@tac-2): <getQuote><auctionID>249</auctionID><bidID>9500</bidID></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_OUT(arh@tac-2): <getQuote><lastAskPrice>56.2138</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1418884500</lastQuoteTime><nextQuoteTime>1418884530</nextQuoteTime><lastClearPrice>74.3321</lastClearPrice><lastClearTime>1418884320</lastClearTime><finalClearTime>1418884500</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_IN(arh@tac-2): <getQuote><auctionID>250</auctionID><bidID>9017</bidID></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_OUT(arh@tac-2): <getQuote><lastAskPrice>59.8146</lastAskPrice><lastBidPrice>8.0605</lastBidPrice><lastQuoteTime>1418884500</lastQuoteTime><nextQuoteTime>1418884530</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1418884500</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_IN(arh@tac-2): <getQuote><auctionID>251</auctionID><bidID>9018</bidID></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_OUT(arh@tac-2): <getQuote><lastAskPrice>55.9072</lastAskPrice><lastBidPrice>52.7089</lastBidPrice><lastQuoteTime>1418884500</lastQuoteTime><nextQuoteTime>1418884530</nextQuoteTime><lastClearPrice>69.5501</lastClearPrice><lastClearTime>1418884390</lastClearTime><finalClearTime>1418884500</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_IN(arh@tac-2): <getQuote><auctionID>252</auctionID><bidID>9019</bidID></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_OUT(arh@tac-2): <getQuote><lastAskPrice>61.6220</lastAskPrice><lastBidPrice>8.0203</lastBidPrice><lastQuoteTime>1418884500</lastQuoteTime><nextQuoteTime>1418884530</nextQuoteTime><lastClearPrice>74.8015</lastClearPrice><lastClearTime>1418884330</lastClearTime><finalClearTime>1418884500</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:35:00 FINEST server.TACConnection|XML_IN(arh@tac-2): <transIDs><earliestTransID>1778</earliestTransID></transIDs>
+18/12 06:35:00 FINEST server.TACConnection|XML_OUT(arh@tac-2): <transIDs><ids><list></list></ids><more>0</more><commandStatus>0</commandStatus></transIDs>
+18/12 06:35:01 FINEST server.TACConnection|XML_IN(arh@tac-2): <submitBid><auctionID>245</auctionID><bidString>((-3 0.0)(-5 220.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+18/12 06:35:01 WARNING server.TACServer|replying status auction closed to message submitBid from arh@tac-2
+18/12 06:35:01 FINEST server.TACConnection|XML_OUT(arh@tac-2): <submitBid><commandStatus>12</commandStatus></submitBid>
+18/12 06:35:01 FINEST server.TACConnection|XML_IN(arh@tac-2): <transIDs><earliestTransID>1778</earliestTransID></transIDs>
+18/12 06:35:01 FINEST server.TACConnection|XML_OUT(arh@tac-2): <transIDs><ids><list></list></ids><more>0</more><commandStatus>0</commandStatus></transIDs>
+18/12 06:35:01 FINEST server.TACConnection|XML_IN(arh@tac-2): <transIDs><earliestTransID>1778</earliestTransID></transIDs>
+18/12 06:35:01 FINEST server.TACConnection|XML_OUT(arh@tac-2): <transIDs><ids><list></list></ids><more>0</more><commandStatus>0</commandStatus></transIDs>
+18/12 06:35:01 FINEST server.TACConnection|XML_IN(arh@tac-2): <nextGame><stat.avgResponseTime>26.0</stat.avgResponseTime><stat.messageCount>1342</stat.messageCount></nextGame>
+18/12 06:35:01 FINEST server.TACConnection|XML_OUT(arh@tac-2): <nextGame><gameID>17</gameID><startTime>1418884620</startTime><gameType>0</gameType><commandStatus>0</commandStatus></nextGame>
+18/12 06:35:01 FINEST server.TACConnection|XML_IN(arh@tac-2): <quit></quit>
+18/12 06:35:01 FINEST inet.InetConnection|arh@tac-2: connection closed from 127.0.0.1
+18/12 06:35:01 FINEST server.TACConnection|XML_OUT(arh@tac-2): <quit><commandStatus>0</commandStatus></quit>
+18/12 06:37:00 FINE server.InfoManager|Entering log for game 17
+************************************************************
+* Entering log for game 17
+************************************************************
+
+
+18/12 06:46:01 FINEST server.TACConnection|XML_IN(arh@tac-3): <transIDs><earliestTransID>1986</earliestTransID></transIDs>
+18/12 06:46:01 FINEST server.TACConnection|XML_OUT(arh@tac-3): <transIDs><ids><list></list></ids><more>0</more><commandStatus>0</commandStatus></transIDs>
+18/12 06:46:01 FINEST server.TACConnection|XML_IN(arh@tac-3): <nextGame><stat.avgResponseTime>27.0</stat.avgResponseTime><stat.messageCount>1291</stat.messageCount></nextGame>
+18/12 06:46:01 FINEST server.TACConnection|XML_OUT(arh@tac-3): <nextGame><gameID>18</gameID><startTime>1418885280</startTime><gameType>0</gameType><commandStatus>0</commandStatus></nextGame>
+18/12 06:46:01 FINEST server.TACConnection|XML_IN(arh@tac-3): <quit></quit>
+18/12 06:46:01 FINEST inet.InetConnection|arh@tac-3: connection closed from 127.0.0.1
+18/12 06:46:01 FINEST server.TACConnection|XML_OUT(arh@tac-3): <quit><commandStatus>0</commandStatus></quit>
+18/12 06:46:01 SEVERE inet.InetConnection|arh@tac-3: could not send <quit><commandStatus>0</commandStatus></quit>
+java.io.IOException: Stream closed
+	at sun.nio.cs.StreamEncoder.ensureOpen(StreamEncoder.java:44)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:117)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:134)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:220)
+	at java.io.Writer.write(Writer.java:157)
+	at se.sics.tac.server.TACConnection.doSendMessage(TACConnection.java:173)
+	at se.sics.isl.inet.InetConnection.sendMessage(InetConnection.java:262)
+	at se.sics.tac.server.TACMessage.doReply(TACMessage.java:277)
+	at se.sics.tac.server.TACConnection.doDeliverMessage(TACConnection.java:167)
+	at se.sics.isl.inet.InetConnection.deliverMessage(InetConnection.java:293)
+	at se.sics.tac.server.TACConnection.doReadMessages(TACConnection.java:132)
+	at se.sics.isl.inet.InetConnection$MessageReader.run(InetConnection.java:417)
+18/12 06:46:07 INFO server.InfoServer|Game 17 have finished calculating score
+18/12 06:46:07 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-4 (-4) IN GAME 16 IS BEING GARBAGED
+18/12 06:46:07 FINEST server.TACConnection|TAC CONNECTION arh@tac-3 FROM 127.0.0.1 IS BEING GARBAGED
+18/12 06:46:07 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-7 (-7) IN GAME 16 IS BEING GARBAGED
+18/12 06:46:07 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-6 (-6) IN GAME 16 IS BEING GARBAGED
+18/12 06:46:07 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-5 (-5) IN GAME 16 IS BEING GARBAGED
+18/12 06:46:07 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-3 (-3) IN GAME 16 IS BEING GARBAGED
+18/12 06:46:07 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-2 (-2) IN GAME 16 IS BEING GARBAGED
+18/12 06:46:07 FINEST server.AgentManager|AGENTMANAGER AgentManager@16 IS BEING GARBAGED
+18/12 06:46:07 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-1 (-1) IN GAME 16 IS BEING GARBAGED
+18/12 06:46:07 FINEST server.Market|MARKET 16 IS BEING GARBAGED
+18/12 06:48:00 FINE server.InfoManager|Entering log for game 18
+************************************************************
+* Entering log for game 18
+************************************************************
+
+
+18/12 06:57:00 FINEST server.TACConnection|XML_IN(arh@tac-4): <getQuote><auctionID>297</auctionID><bidID>11346</bidID></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_OUT(arh@tac-4): <getQuote><lastAskPrice>0.0000</lastAskPrice><lastBidPrice>71.7556</lastBidPrice><lastQuoteTime>1418885820</lastQuoteTime><nextQuoteTime>1418885850</nextQuoteTime><lastClearPrice>71.7556</lastClearPrice><lastClearTime>1418885770</lastClearTime><finalClearTime>1418885820</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_IN(arh@tac-4): <getQuote><auctionID>298</auctionID><bidID>11807</bidID></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_OUT(arh@tac-4): <getQuote><lastAskPrice>56.7530</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1418885820</lastQuoteTime><nextQuoteTime>1418885850</nextQuoteTime><lastClearPrice>72.1940</lastClearPrice><lastClearTime>1418885770</lastClearTime><finalClearTime>1418885820</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_IN(arh@tac-4): <getQuote><auctionID>299</auctionID><bidID>11348</bidID></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_OUT(arh@tac-4): <getQuote><lastAskPrice>0.0000</lastAskPrice><lastBidPrice>73.5229</lastBidPrice><lastQuoteTime>1418885820</lastQuoteTime><nextQuoteTime>1418885850</nextQuoteTime><lastClearPrice>86.5233</lastClearPrice><lastClearTime>1418885650</lastClearTime><finalClearTime>1418885820</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_IN(arh@tac-4): <getQuote><auctionID>300</auctionID><bidID>11349</bidID></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_OUT(arh@tac-4): <getQuote><lastAskPrice>57.1619</lastAskPrice><lastBidPrice>50.0015</lastBidPrice><lastQuoteTime>1418885820</lastQuoteTime><nextQuoteTime>1418885850</nextQuoteTime><lastClearPrice>81.2663</lastClearPrice><lastClearTime>1418885650</lastClearTime><finalClearTime>1418885820</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_IN(arh@tac-4): <getQuote><auctionID>301</auctionID><bidID>12000</bidID></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_OUT(arh@tac-4): <getQuote><lastAskPrice>4.1843</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1418885820</lastQuoteTime><nextQuoteTime>1418885850</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1418885820</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_IN(arh@tac-4): <getQuote><auctionID>302</auctionID><bidID>11815</bidID></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_OUT(arh@tac-4): <getQuote><lastAskPrice>57.8571</lastAskPrice><lastBidPrice>0.0000</lastBidPrice><lastQuoteTime>1418885820</lastQuoteTime><nextQuoteTime>1418885850</nextQuoteTime><lastClearPrice>58.2394</lastClearPrice><lastClearTime>1418885640</lastClearTime><finalClearTime>1418885820</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_IN(arh@tac-4): <getQuote><auctionID>303</auctionID><bidID>11352</bidID></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_OUT(arh@tac-4): <getQuote><lastAskPrice>55.6564</lastAskPrice><lastBidPrice>50.0019</lastBidPrice><lastQuoteTime>1418885820</lastQuoteTime><nextQuoteTime>1418885850</nextQuoteTime><lastClearPrice>68.4714</lastClearPrice><lastClearTime>1418885710</lastClearTime><finalClearTime>1418885820</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_IN(arh@tac-4): <getQuote><auctionID>304</auctionID><bidID>11818</bidID></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_OUT(arh@tac-4): <getQuote><lastAskPrice>56.7939</lastAskPrice><lastBidPrice>54.5971</lastBidPrice><lastQuoteTime>1418885820</lastQuoteTime><nextQuoteTime>1418885850</nextQuoteTime><lastClearPrice>67.4761</lastClearPrice><lastClearTime>1418885710</lastClearTime><finalClearTime>1418885820</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_IN(arh@tac-4): <getQuote><auctionID>305</auctionID><bidID>11358</bidID></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_OUT(arh@tac-4): <getQuote><lastAskPrice>58.7590</lastAskPrice><lastBidPrice>14.0670</lastBidPrice><lastQuoteTime>1418885820</lastQuoteTime><nextQuoteTime>1418885850</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1418885820</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_IN(arh@tac-4): <getQuote><auctionID>306</auctionID><bidID>11361</bidID></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_OUT(arh@tac-4): <getQuote><lastAskPrice>59.4904</lastAskPrice><lastBidPrice>14.0546</lastBidPrice><lastQuoteTime>1418885820</lastQuoteTime><nextQuoteTime>1418885850</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1418885820</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_IN(arh@tac-4): <getQuote><auctionID>307</auctionID><bidID>11811</bidID></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_OUT(arh@tac-4): <getQuote><lastAskPrice>57.0965</lastAskPrice><lastBidPrice>53.2807</lastBidPrice><lastQuoteTime>1418885820</lastQuoteTime><nextQuoteTime>1418885850</nextQuoteTime><lastClearPrice>70.2622</lastClearPrice><lastClearTime>1418885650</lastClearTime><finalClearTime>1418885820</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_IN(arh@tac-4): <getQuote><auctionID>308</auctionID><bidID>11370</bidID></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_OUT(arh@tac-4): <getQuote><lastAskPrice>61.7123</lastAskPrice><lastBidPrice>14.0278</lastBidPrice><lastQuoteTime>1418885820</lastQuoteTime><nextQuoteTime>1418885850</nextQuoteTime><lastClearPrice>0.0000</lastClearPrice><lastClearTime>0</lastClearTime><finalClearTime>1418885820</finalClearTime><nextClearTime>0</nextClearTime><hypotheticalQuantityWon> </hypotheticalQuantityWon><auctionStatus>3</auctionStatus><commandStatus>0</commandStatus></getQuote>
+18/12 06:57:00 FINEST server.TACConnection|XML_IN(arh@tac-4): <transIDs><earliestTransID>2185</earliestTransID></transIDs>
+18/12 06:57:00 FINEST server.TACConnection|XML_OUT(arh@tac-4): <transIDs><ids><list></list></ids><more>0</more><commandStatus>0</commandStatus></transIDs>
+18/12 06:57:00 FINEST server.TACConnection|XML_IN(arh@tac-4): <submitBid><auctionID>301</auctionID><bidString>((-3 0.0)(-5 220.0))</bidString><expireTime>0</expireTime><expireMode>0</expireMode><divisible>1</divisible></submitBid>
+18/12 06:57:00 WARNING server.TACServer|replying status auction closed to message submitBid from arh@tac-4
+18/12 06:57:00 FINEST server.TACConnection|XML_OUT(arh@tac-4): <submitBid><commandStatus>12</commandStatus></submitBid>
+18/12 06:57:00 FINEST server.TACConnection|XML_IN(arh@tac-4): <transIDs><earliestTransID>2185</earliestTransID></transIDs>
+18/12 06:57:00 FINEST server.TACConnection|XML_OUT(arh@tac-4): <transIDs><ids><list></list></ids><more>0</more><commandStatus>0</commandStatus></transIDs>
+18/12 06:57:01 FINEST server.TACConnection|XML_IN(arh@tac-4): <transIDs><earliestTransID>2185</earliestTransID></transIDs>
+18/12 06:57:01 FINEST server.TACConnection|XML_OUT(arh@tac-4): <transIDs><ids><list></list></ids><more>0</more><commandStatus>0</commandStatus></transIDs>
+18/12 06:57:01 FINEST server.TACConnection|XML_IN(arh@tac-4): <nextGame><stat.avgResponseTime>23.0</stat.avgResponseTime><stat.messageCount>1295</stat.messageCount></nextGame>
+18/12 06:57:01 FINEST server.TACConnection|XML_OUT(arh@tac-4): <nextGame><gameID>19</gameID><startTime>1418885940</startTime><gameType>0</gameType><commandStatus>0</commandStatus></nextGame>
+18/12 06:57:01 FINEST server.TACConnection|XML_IN(arh@tac-4): <quit></quit>
+18/12 06:57:01 FINEST server.TACConnection|XML_OUT(arh@tac-4): <quit><commandStatus>0</commandStatus></quit>
+18/12 06:57:01 FINEST inet.InetConnection|arh@tac-4: connection closed from 127.0.0.1
+18/12 06:57:02 INFO server.InfoServer|Game 18 have finished calculating score
+18/12 06:57:02 FINEST server.TACConnection|TAC CONNECTION arh@tac-4 FROM 127.0.0.1 IS BEING GARBAGED
+18/12 06:57:02 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-7 (-7) IN GAME 17 IS BEING GARBAGED
+18/12 06:57:02 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-6 (-6) IN GAME 17 IS BEING GARBAGED
+18/12 06:57:02 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-5 (-5) IN GAME 17 IS BEING GARBAGED
+18/12 06:57:02 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-4 (-4) IN GAME 17 IS BEING GARBAGED
+18/12 06:57:02 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-3 (-3) IN GAME 17 IS BEING GARBAGED
+18/12 06:57:02 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-2 (-2) IN GAME 17 IS BEING GARBAGED
+18/12 06:57:02 FINEST server.AgentManager|AGENTMANAGER AgentManager@17 IS BEING GARBAGED
+18/12 06:57:02 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-1 (-1) IN GAME 17 IS BEING GARBAGED
+18/12 06:57:02 FINEST server.Market|MARKET 17 IS BEING GARBAGED
+18/12 06:59:00 FINE server.InfoManager|Entering log for game 19
+************************************************************
+* Entering log for game 19
+************************************************************
+
+
+18/12 07:08:01 FINEST server.TACConnection|XML_IN(arh@tac-5): <transIDs><earliestTransID>2385</earliestTransID></transIDs>
+18/12 07:08:01 FINEST server.TACConnection|XML_OUT(arh@tac-5): <transIDs><ids><list></list></ids><more>0</more><commandStatus>0</commandStatus></transIDs>
+18/12 07:08:01 FINEST server.TACConnection|XML_IN(arh@tac-5): <nextGame><stat.avgResponseTime>23.0</stat.avgResponseTime><stat.messageCount>1332</stat.messageCount></nextGame>
+18/12 07:08:01 FINEST server.TACConnection|XML_OUT(arh@tac-5): <nextGame><gameID>20</gameID><startTime>1418886600</startTime><gameType>0</gameType><commandStatus>0</commandStatus></nextGame>
+18/12 07:08:01 FINEST server.TACConnection|XML_IN(arh@tac-5): <quit></quit>
+18/12 07:08:01 FINEST server.TACConnection|XML_OUT(arh@tac-5): <quit><commandStatus>0</commandStatus></quit>
+18/12 07:08:01 FINEST inet.InetConnection|arh@tac-5: connection closed from 127.0.0.1
+18/12 07:08:16 INFO server.InfoServer|Game 19 have finished calculating score
+18/12 07:08:16 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-1 (-1) IN GAME 18 IS BEING GARBAGED
+18/12 07:08:16 FINEST server.Market|MARKET 18 IS BEING GARBAGED
+18/12 07:08:16 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-5 (-5) IN GAME 18 IS BEING GARBAGED
+18/12 07:08:16 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-4 (-4) IN GAME 18 IS BEING GARBAGED
+18/12 07:08:16 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-3 (-3) IN GAME 18 IS BEING GARBAGED
+18/12 07:08:16 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-2 (-2) IN GAME 18 IS BEING GARBAGED
+18/12 07:08:16 FINEST server.AgentManager|AGENTMANAGER AgentManager@18 IS BEING GARBAGED
+18/12 07:08:16 FINEST server.TACConnection|TAC CONNECTION arh@tac-5 FROM 127.0.0.1 IS BEING GARBAGED
+18/12 07:08:16 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-7 (-7) IN GAME 18 IS BEING GARBAGED
+18/12 07:08:16 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-6 (-6) IN GAME 18 IS BEING GARBAGED
+18/12 07:10:00 FINE server.InfoManager|Entering log for game 20
+************************************************************
+* Entering log for game 20
+************************************************************
+
+
+18/12 09:05:06 FINEST server.TACConnection|XML_IN(arh@tac-6): <bidInfo><bidID>13346</bidID></bidInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_OUT(arh@tac-6): <bidInfo><bidString>()</bidString><bidHash>()</bidHash><rejectReason>0</rejectReason><processingState>4</processingState><timeProcessed>1418893506</timeProcessed><timeClosed>1418893506</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_IN(arh@tac-6): <bidInfo><bidID>13347</bidID></bidInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_OUT(arh@tac-6): <bidInfo><bidString>()</bidString><bidHash>()</bidHash><rejectReason>0</rejectReason><processingState>4</processingState><timeProcessed>1418893506</timeProcessed><timeClosed>1418893506</timeClosed><withdrawState>0</withdrawState><timeWithdrawRequest>0</timeWithdrawRequest><timeWithdraw>0</timeWithdraw><commandStatus>0</commandStatus></bidInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_IN(arh@tac-6): <transInfo><transID>2485</transID></transInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_OUT(arh@tac-6): <transInfo><auctionID>337</auctionID><clearTime>1418893506</clearTime><tradePartyID>auction</tradePartyID><price>348.0000</price><quantity>2.0</quantity><commandStatus>0</commandStatus></transInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_IN(arh@tac-6): <transInfo><transID>2486</transID></transInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_OUT(arh@tac-6): <transInfo><auctionID>343</auctionID><clearTime>1418893506</clearTime><tradePartyID>auction</tradePartyID><price>352.0000</price><quantity>2.0</quantity><commandStatus>0</commandStatus></transInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_IN(arh@tac-6): <transInfo><transID>2487</transID></transInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_OUT(arh@tac-6): <transInfo><auctionID>344</auctionID><clearTime>1418893506</clearTime><tradePartyID>auction</tradePartyID><price>341.0000</price><quantity>2.0</quantity><commandStatus>0</commandStatus></transInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_IN(arh@tac-6): <transIDs><earliestTransID>2487</earliestTransID></transIDs>
+18/12 09:05:06 FINEST server.TACConnection|XML_OUT(arh@tac-6): <transIDs><ids><list><transID>2489</transID><transID>2494</transID><transID>2500</transID><transID>2503</transID><transID>2517</transID><transID>2524</transID><transID>2532</transID></list></ids><more>0</more><commandStatus>0</commandStatus></transIDs>
+18/12 09:05:06 FINEST server.TACConnection|XML_IN(arh@tac-6): <transInfo><transID>2489</transID></transInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_OUT(arh@tac-6): <transInfo><auctionID>345</auctionID><clearTime>1418887140</clearTime><tradePartyID>auction</tradePartyID><price>0.0000</price><quantity>2.0</quantity><commandStatus>0</commandStatus></transInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_IN(arh@tac-6): <transInfo><transID>2494</transID></transInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_OUT(arh@tac-6): <transInfo><auctionID>346</auctionID><clearTime>1418887140</clearTime><tradePartyID>auction</tradePartyID><price>0.0000</price><quantity>1.0</quantity><commandStatus>0</commandStatus></transInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_IN(arh@tac-6): <transInfo><transID>2500</transID></transInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_OUT(arh@tac-6): <transInfo><auctionID>347</auctionID><clearTime>1418887140</clearTime><tradePartyID>auction</tradePartyID><price>0.0000</price><quantity>3.0</quantity><commandStatus>0</commandStatus></transInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_IN(arh@tac-6): <transInfo><transID>2503</transID></transInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_OUT(arh@tac-6): <transInfo><auctionID>348</auctionID><clearTime>1418887140</clearTime><tradePartyID>auction</tradePartyID><price>0.0000</price><quantity>2.0</quantity><commandStatus>0</commandStatus></transInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_IN(arh@tac-6): <transInfo><transID>2517</transID></transInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_OUT(arh@tac-6): <transInfo><auctionID>350</auctionID><clearTime>1418887140</clearTime><tradePartyID>auction</tradePartyID><price>0.0000</price><quantity>2.0</quantity><commandStatus>0</commandStatus></transInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_IN(arh@tac-6): <transInfo><transID>2524</transID></transInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_OUT(arh@tac-6): <transInfo><auctionID>351</auctionID><clearTime>1418887140</clearTime><tradePartyID>auction</tradePartyID><price>147.0000</price><quantity>2.0</quantity><commandStatus>0</commandStatus></transInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_IN(arh@tac-6): <transInfo><transID>2532</transID></transInfo>
+18/12 09:05:06 FINEST server.TACConnection|XML_OUT(arh@tac-6): <transInfo><auctionID>352</auctionID><clearTime>1418887140</clearTime><tradePartyID>auction</tradePartyID><price>94.0000</price><quantity>2.0</quantity><commandStatus>0</commandStatus></transInfo>
+18/12 09:05:06 INFO server.InfoServer|Game 20 have finished calculating score
+18/12 09:05:06 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-7 (-7) IN GAME 19 IS BEING GARBAGED
+18/12 09:05:06 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-6 (-6) IN GAME 19 IS BEING GARBAGED
+18/12 09:05:06 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-5 (-5) IN GAME 19 IS BEING GARBAGED
+18/12 09:05:06 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-4 (-4) IN GAME 19 IS BEING GARBAGED
+18/12 09:05:06 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-3 (-3) IN GAME 19 IS BEING GARBAGED
+18/12 09:05:06 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-2 (-2) IN GAME 19 IS BEING GARBAGED
+18/12 09:05:06 FINEST server.AgentManager|AGENTMANAGER AgentManager@19 IS BEING GARBAGED
+18/12 09:05:06 FINEST classic.DummyAgent|BUILTIN AGENT Dummy-1 (-1) IN GAME 19 IS BEING GARBAGED
+18/12 09:05:06 FINEST server.Market|MARKET 19 IS BEING GARBAGED

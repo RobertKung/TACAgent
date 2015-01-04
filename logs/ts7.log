@@ -1,0 +1,9 @@
+03/12 04:30:45 INFO server.LineServer|info server started at *:4039
+03/12 04:30:45 INFO server.TACServer|waiting for Info Server to start...
+03/12 04:30:48 FINE server.LineServer|new info connection: info-1
+03/12 04:30:48 INFO server.InfoServer|new Java Info server connection
+03/12 04:30:48 INFO server.TACServer|tac server started at *:6500
+03/12 04:31:33 WARNING line.LineConnection|info-1: 127.0.0.1 closed connection
+03/12 04:31:33 FINE server.LineServer|info connection info-1 has closed
+03/12 04:31:33 WARNING server.InfoServer|info connection info closed
+03/12 04:31:33 FINEST line.LineConnection|info-1: connection closed from 127.0.0.1

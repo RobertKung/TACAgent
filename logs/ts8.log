@@ -1,0 +1,5 @@
+03/12 04:29:23 INFO server.LineServer|info server started at *:4039
+03/12 04:29:23 INFO server.TACServer|waiting for Info Server to start...
+03/12 04:29:50 FINE server.LineServer|new info connection: info-1
+03/12 04:29:50 INFO server.InfoServer|new Java Info server connection
+03/12 04:29:50 INFO server.TACServer|tac server started at *:6500

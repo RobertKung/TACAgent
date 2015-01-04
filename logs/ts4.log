@@ -1,0 +1,25 @@
+03/12 04:46:27 INFO server.LineServer|info server started at *:4039
+03/12 04:46:27 INFO server.TACServer|waiting for Info Server to start...
+03/12 04:46:52 FINE server.LineServer|new info connection: info-1
+03/12 04:46:52 INFO server.InfoServer|new Java Info server connection
+03/12 04:46:52 INFO server.TACServer|tac server started at *:6500
+03/12 04:50:00 FINE server.InfoManager|Entering log for game 4
+************************************************************
+* Entering log for game 4
+************************************************************
+
+
+03/12 04:59:00 INFO server.InfoServer|Game 4 have finished calculating score
+03/12 04:59:01 FINEST server.TACConnection|XML_IN(arh@tac-1): <transIDs><earliestTransID>185</earliestTransID></transIDs>
+03/12 04:59:01 FINEST server.TACConnection|XML_OUT(arh@tac-1): <transIDs><ids><list></list></ids><more>0</more><commandStatus>0</commandStatus></transIDs>
+03/12 04:59:01 FINEST server.TACConnection|XML_IN(arh@tac-1): <nextGame><stat.avgResponseTime>26.0</stat.avgResponseTime><stat.messageCount>981</stat.messageCount></nextGame>
+03/12 04:59:01 FINEST server.TACConnection|XML_OUT(arh@tac-1): <nextGame><gameID>5</gameID><startTime>1417582860</startTime><gameType>0</gameType><commandStatus>0</commandStatus></nextGame>
+03/12 04:59:01 FINEST server.TACConnection|XML_IN(arh@tac-1): <quit></quit>
+03/12 04:59:01 FINEST server.TACConnection|XML_OUT(arh@tac-1): <quit><commandStatus>0</commandStatus></quit>
+03/12 04:59:01 FINEST inet.InetConnection|arh@tac-1: connection closed from 127.0.0.1
+03/12 05:01:00 FINE server.InfoManager|Entering log for game 5
+************************************************************
+* Entering log for game 5
+************************************************************
+
+

@@ -1,0 +1,48 @@
+10/12 05:50:48 INFO server.LineServer|info server started at *:4039
+10/12 05:50:48 INFO server.TACServer|waiting for Info Server to start...
+10/12 05:51:20 FINE server.LineServer|new info connection: info-1
+10/12 05:51:20 INFO server.InfoServer|new Java Info server connection
+10/12 05:51:20 INFO server.TACServer|tac server started at *:6500
+10/12 05:51:44 FINE server.TACServer|new agent: tac-1
+10/12 05:51:44 FINEST server.TACConnection|XML_IN(tac-1): <auth><userName>arh</userName><userPW>binbin222</userPW></auth>
+10/12 05:51:44 FINEST server.TACConnection|XML_OUT(arh@tac-1): <auth><userID>0</userID><commandStatus>0</commandStatus></auth>
+10/12 05:51:44 FINEST server.TACConnection|XML_IN(arh@tac-1): <serverTime></serverTime>
+10/12 05:51:44 FINEST server.TACConnection|XML_OUT(arh@tac-1): <serverTime><time>1418190704</time><commandStatus>0</commandStatus></serverTime>
+10/12 05:51:44 FINEST server.TACConnection|XML_IN(arh@tac-1): <nextGame></nextGame>
+10/12 05:51:44 FINEST server.TACConnection|XML_OUT(arh@tac-1): <nextGame><gameID>14</gameID><startTime>1418190780</startTime><gameType>0</gameType><commandStatus>0</commandStatus></nextGame>
+10/12 05:51:44 FINEST server.TACConnection|XML_IN(arh@tac-1): <quit></quit>
+10/12 05:51:44 FINEST inet.InetConnection|arh@tac-1: connection closed from 127.0.0.1
+10/12 05:51:44 FINEST server.TACConnection|XML_OUT(arh@tac-1): <quit><commandStatus>0</commandStatus></quit>
+10/12 05:51:44 SEVERE inet.InetConnection|arh@tac-1: could not send <quit><commandStatus>0</commandStatus></quit>
+java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:116)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:220)
+	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:290)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:294)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:140)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at se.sics.tac.server.TACConnection.doSendMessage(TACConnection.java:176)
+	at se.sics.isl.inet.InetConnection.sendMessage(InetConnection.java:262)
+	at se.sics.tac.server.TACMessage.doReply(TACMessage.java:277)
+	at se.sics.tac.server.TACConnection.doDeliverMessage(TACConnection.java:167)
+	at se.sics.isl.inet.InetConnection.deliverMessage(InetConnection.java:293)
+	at se.sics.tac.server.TACConnection.doReadMessages(TACConnection.java:132)
+	at se.sics.isl.inet.InetConnection$MessageReader.run(InetConnection.java:417)
+10/12 05:53:00 FINE server.InfoManager|Entering log for game 14
+************************************************************
+* Entering log for game 14
+************************************************************
+
+
+10/12 06:02:00 FINEST server.AgentManager|AgentManager AgentManager@14 is finished
+10/12 06:02:01 FINEST server.TACConnection|XML_IN(arh@tac-2): <transIDs><earliestTransID>1564</earliestTransID></transIDs>
+10/12 06:02:01 FINEST server.TACConnection|XML_OUT(arh@tac-2): <transIDs><ids><list></list></ids><more>0</more><commandStatus>0</commandStatus></transIDs>
+10/12 06:02:01 FINEST server.TACConnection|XML_IN(arh@tac-2): <nextGame><stat.avgResponseTime>30.0</stat.avgResponseTime><stat.messageCount>1280</stat.messageCount></nextGame>
+10/12 06:02:01 FINEST server.TACConnection|XML_OUT(arh@tac-2): <nextGame><gameID>15</gameID><startTime>1418191440</startTime><gameType>0</gameType><commandStatus>0</commandStatus></nextGame>
+10/12 06:02:01 FINEST server.TACConnection|XML_IN(arh@tac-2): <quit></quit>
+10/12 06:02:01 FINEST server.TACConnection|XML_OUT(arh@tac-2): <quit><commandStatus>0</commandStatus></quit>
+10/12 06:02:01 FINEST inet.InetConnection|arh@tac-2: connection closed from 127.0.0.1
+10/12 06:02:02 INFO server.InfoServer|Game 14 have finished calculating score
+10/12 06:02:02 FINEST server.TACConnection|TAC CONNECTION arh@tac-2 FROM 127.0.0.1 IS BEING GARBAGED
+10/12 06:49:00 WARNING server.LineServer|info connection already open: denying access from 127.0.0.1

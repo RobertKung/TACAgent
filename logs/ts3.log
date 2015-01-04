@@ -1,0 +1,11 @@
+08/12 15:37:28 INFO server.LineServer|info server started at *:4039
+08/12 15:37:28 INFO server.TACServer|waiting for Info Server to start...
+08/12 15:37:57 FINE server.LineServer|new info connection: info-1
+08/12 15:37:57 INFO server.InfoServer|new Java Info server connection
+08/12 15:37:57 INFO server.TACServer|tac server started at *:6500
+08/12 15:41:00 FINE server.InfoManager|Entering log for game 6
+************************************************************
+* Entering log for game 6
+************************************************************
+
+
